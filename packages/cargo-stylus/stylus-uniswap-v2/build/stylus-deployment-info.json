@@ -1,13 +1,13 @@
 {
   "network": "arbitrum-sepolia",
-  "deployer_address": "0x5bc6f16Ca189D3C8d3Fbaf367611fB04a0B7b309",
+  "deployer_address": "0x1D4684bF07889811980273E8E24494f4D338d6cC",
   "cache_manager_address": "",
-  "token0_address": "0xf787c39812b008588b825d73933b16c91d8526e8",
-  "token0_tx": "0xb6e0c4a52d99698d5352b20024c87483aec10a97b1c56ef2f3dbf7f4ff0f2bda",
-  "token1_address": "0xd373f49c3fca04098a66adeba0f225cab172a10a",
-  "token1_tx": "0xb044292b42b972e99e147d8b24a363357b507d5c25fcd79ca32dbc6a75c0b322",
-  "uniswap_address": "0x40b694c75b4e509aa8cbe9993a37af9546ce36e8",
-  "uniswap_tx": "0x12a37b0e7cfafbc7d3763cc816cc83bb8f477f2404bed75915be26227d4b426d",
+  "token0_address": "0xeadd9ed31a7f2dd62dd2103a9d64c74153e9f90f",
+  "token0_tx": "0x6344aca8ea3edda8708c06caeb538e3d9725398b600628082165f4e5a1d46d7a",
+  "token1_address": "0xbe3c209b874ac624c17554e6411aca8a1ca0fb4a",
+  "token1_tx": "0xe6353f05b10c4f731684da82dc147df7d6b3e067c5c3b3ff38b9184626ed162b",
+  "uniswap_address": "0xc8808d49484b6c47a49df372c8e8fa2041402593",
+  "uniswap_tx": "0x970834fbc37be7c2682e1f7801d02146c8e65857fbb6ef82ae5965d327540a37",
   "rpc_url": "https://sepolia-rollup.arbitrum.io/rpc",
-  "deployment_time": "2025-07-24T17:10:09Z"
+  "deployment_time": "2025-08-14T05:11:40Z"
 }
