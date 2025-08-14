@@ -3,6 +3,8 @@
 extern crate alloc;
 
 mod erc20;
+
+use stylus_cache_sdk::{is_contract_cacheable};
 use crate::erc20::{UniswapV2ERC20, UniswapV2ERC20Params};
 use stylus_sdk::{prelude::*, alloy_primitives::{U256, Address}};
 
@@ -35,6 +37,10 @@ impl UniswapV2Pair {
         Ok(())
     }
 
+    pub fn is_cacheable(&self) -> bool {
+        is_contract_cacheable()
+    }
+    
     pub fn mint(&mut self, to: Address) -> Result<U256, Vec<u8>> {
         // Check if the address is valid
         if to == Address::ZERO {
